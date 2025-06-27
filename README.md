@@ -18,7 +18,7 @@ A Chrome extension that modifies the bookmark counts in Karakeep to show only un
 
 ## Usage
 
-1. Navigate to https://karakeep.reedcwilson.com
+1. Navigate to https://karakeep.yourdomain.com
 2. Log in to your account
 3. The extension will automatically update the bookmark counts in the sidebar
 4. Click the extension icon to access the popup and manually refresh counts if needed
@@ -26,6 +26,7 @@ A Chrome extension that modifies the bookmark counts in Karakeep to show only un
 ## How it Works
 
 The extension:
+
 1. Monitors the Karakeep page for bookmark-related elements
 2. Identifies bookmark count displays in the sidebar
 3. Counts unarchived bookmarks on the current page
@@ -43,6 +44,7 @@ The extension:
 ## Development
 
 To modify the extension:
+
 1. Make changes to the relevant files
 2. Go to `chrome://extensions/`
 3. Click the refresh icon on the extension card
@@ -51,6 +53,7 @@ To modify the extension:
 ## Troubleshooting
 
 If the counts aren't updating:
+
 1. Refresh the Karakeep page
 2. Click the extension icon and use the "Refresh Counts" button
 3. Check the browser console for any error messages

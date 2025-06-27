@@ -3,12 +3,10 @@
   "name": "Karakeep Unarchived Bookmark Counter",
   "version": "1.0",
   "description": "Shows count of unarchived bookmarks instead of total bookmarks in Karakeep",
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://karakeep.reedcwilson.com/*"],
+      "matches": ["https://karakeep.*.com/*"],
       "js": ["content.js"],
       "run_at": "document_end"
     }
