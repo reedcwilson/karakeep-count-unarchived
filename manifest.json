@@ -6,7 +6,7 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://karakeep.*.com/*"],
+      "matches": ["https://karakeep.reedcwilson.com/*"],
       "js": ["content.js"],
       "run_at": "document_end"
     }
